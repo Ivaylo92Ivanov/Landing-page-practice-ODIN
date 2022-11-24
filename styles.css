@@ -21,7 +21,7 @@ body {
 }
 
 .header p{
-    color: white;
+    color: #f9faf8;
     flex: 1;
     font-size: 24px;
 }
@@ -40,8 +40,7 @@ a {
 
 .hero-main {
     display: flex;
-    padding: 50px 0;
-    
+    padding: 50px 0 75px 0;
 }
 
 .left,
@@ -69,7 +68,7 @@ button {
     width:fit-content;
     padding: 5px 20px;
     color: white;
-    font-weight: 700;
+    font-size: 18px;
 }
 
 .right {
@@ -78,3 +77,91 @@ button {
     justify-content: center;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20% 0 20%;
+    align-items: center;
+}
+
+.information .header{
+    font-size: 36px;
+    font-weight: 800;
+    padding: 36px 0;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0 75px 0;
+}
+
+.card {
+    width: 180px;
+}
+
+.card div {
+    height: 180px;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 20% 75px 20%;
+    align-items: center;
+}
+
+.quote .text{
+    font-style: italic; 
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0 10%;
+}
+
+.quote .author {
+    font-weight: 700;
+    align-self: flex-end;
+    padding: 0 10%;
+}
+
+.call {
+    display: flex;
+    padding:75px 20% 75px 20%;
+}
+
+.call .container {
+    display: flex;
+    flex: 1;
+    background-color: #3882f6;
+    border-radius: 8px;
+    height: 160px;
+    align-items: center;
+    padding: 25px 100px;
+    color: white;
+    font-size: 18px;
+}
+
+.call button {
+    margin-left: auto;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding:40px 20% 40px 20%;
+}
